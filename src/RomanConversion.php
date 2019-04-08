@@ -46,7 +46,6 @@ class RomanConversion
             $result[] = self::convertToRoman($number);
         }
 
-        var_dump($result);
         return $result;
     }
 
